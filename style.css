@@ -4,8 +4,8 @@
 }
 
 nav{
-    background-color: rgba(88, 53, 4, 0.79);
-    color: rgb(211, 177, 149);
+    background-color: rgba(60, 39, 11, 0.79);
+    color: rgb(219, 197, 180);
     height: 70px;
     font-size: 60px;
     display: flex;
@@ -15,4 +15,51 @@ nav{
 
 nav ul {
     list-style-type: none;
+}
+
+.gameContainer {
+    background-color:rgb(255, 255, 255);
+    display:flex;
+    justify-content: center;
+    margin-top: 80 px;
+
+}
+
+.container {
+    display:grid;
+    margin-top: 20px;
+    grid-template-rows: repeat(3,10vw);
+    grid-template-columns: repeat(3,10vw);
+}
+
+.box {
+    border: 1px solid rgb(94, 76, 64);
+    font-size: 7vw;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.box:hover{
+    background-color:rgb(192, 177, 162);
+}
+
+.gameInfo {
+    padding: 30px;
+}
+
+/* grid */
+
+.br-0{
+    border-right:0;
+}
+.bl-0{
+    border-left:0;
+}
+.bt-0{
+    border-top:0;
+}
+.bb-0{
+    border-bottom:0;
 }
