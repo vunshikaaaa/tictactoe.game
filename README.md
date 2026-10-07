@@ -9,4 +9,12 @@ Features I Added include:
 - a textbox displaying whose turn it is/who won
 - reset button
 
+Challenge I faced:
+Many times such as when I was working on the game logic, the code would stop working. When I checked in the live site, even the previous feat like placing X when clicked was also not working. This was very annoying, to be honest. I tackled this by going through the overall logic of my code and trying the new code step by step so that I could spot the exact line which was causing this bug. I would then fix this line.
+
+
 I hope you guys enjoy!! 
+
+
+Made with love,
+lunois_vee
