@@ -63,3 +63,13 @@ nav ul {
 .bb-0{
     border-bottom:0;
 }
+
+#reset {
+    margin: 0 23px;
+    padding: 1px 18px;
+    background: #d6beae;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bolder;
+}
